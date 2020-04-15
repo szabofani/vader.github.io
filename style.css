@@ -1,0 +1,205 @@
+body
+{ 
+ color: white;
+ background: blue;
+  background-attachment: fixed;
+  background-size: 1500px;
+  background-repeat: no-repeat;
+}
+
+.menu
+{
+  background: black;
+  background-size: 1300px 150px;
+  background-repeat: no-repeat;
+  margin: -8px;
+  color: white;
+  height: 100px;
+  width: 1250px; 
+  font-family: 'Josefin Sans', sans-serif; 
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px;
+ 
+}
+  
+ 
+.menu:hover
+{
+ opacity: 1;
+}
+
+#m {
+  opacity:0.5;
+}
+
+#m:hover
+{
+ opacity:1;
+}
+
+.Logo{
+  width: 450px;
+  height: 250px;
+}
+
+#tm
+{
+  color: white;
+  position: relative;
+  top:0px;
+  left:30px;
+  font-size: 30px;
+  font-family: 'Abril Fatface', cursive;
+}
+
+
+#sm {
+  color: white;
+  position: relative;
+  top:50px;
+  left:0px;
+  font-size: 25px;
+  font-family: 'Abril Fatface', cursive;
+}
+
+#fm {
+  color: white;
+  position: relative;
+  top:30px;
+  left: 15px;
+  font-size: 35px;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.First
+{
+  color: white;
+  width: 400px;
+  margin-left: 60px;
+  font-family: 'Josefin Sans', sans-serif;  
+  position: relative;
+  top: -40px;
+  right:-750px;
+
+}
+
+.Quotesa {
+  font-family: 'Abril Fatface', cursive;
+  color: white;
+  background: #222;
+  font-size: 40px;
+  margin: 20px;
+  width:220px; 
+  height: 280px;
+}
+
+
+.Quotesb {
+  font-family: 'Abril Fatface', cursive;
+  color: white;
+  background: #222;
+  width: 250px;
+  height: 300px;
+  font-size: 40px;
+  margin: 20px;
+  quotes: "“" "”";
+  position: relative;
+  top: 50px;
+}
+
+
+.Quotesc {
+  font-family: 'Abril Fatface', cursive;
+  color: white;
+  background: #222;
+  width: 250px;
+  height: 500px;
+  font-size: 40px;
+  margin: 20px;
+  quotes: "“" "”";
+  position: relative;
+  top: 200px
+}
+
+.Quotesa::before {
+  content: open-quote;
+}
+
+.Quotesb::before {
+  content: open-quote;
+}
+
+.Quotesc::before {
+  content: open-quote;
+}
+
+#q {
+  position: relative;
+  bottom: 90px;
+  left: 0px  
+}
+
+.Headers {
+  
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  text-transform: uppercase;
+}
+
+.Big-case {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.Small-case
+{
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+}
+
+.Italic {
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+  font-style: italic;
+}
+
+.List-small
+{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.A
+{
+  display: flex;
+ 
+}
+
+.Second
+{
+  position:relative;
+  left: 130px;
+  width:330px;
+}
+
+.Third
+{
+  position:relative;
+  top:800px;
+  left:400px;
+  height:450px;
+   width: 800px;
+}
+
+#Fourth
+{
+  position:relative;
+  top:1400px;
+  left:-300px;
+  
+}
+
+.paragrpahs
+{
+  font-family: 'Josefin Sans', sans-serif;
+}
